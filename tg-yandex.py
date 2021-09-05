@@ -25,4 +25,4 @@ bot = telegram.Bot(token=tokentg)
 
 while True:
     bot.send_message(tgid, f'{weather()}')
-    time.sleep(1)
+    time.sleep(60*30)
